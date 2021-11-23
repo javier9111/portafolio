@@ -4,12 +4,8 @@
 }
 
 .home-container {
-  width: 100%;
-  height: 100vh;
-
-  background-color: #003049;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -18,10 +14,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 50%;
 }
 .profile-picture {
   border-radius: 50%;
-  height: 389px;
-  left: 297px;
-  top: 318px;
+  height: 600px;
+  width: auto;
+  border: 8px solid #fdf0d5;
+  box-shadow: -10px 3px 20px 8px rgba(0, 0, 0, 0.44);
+}
+
+.sum-prof-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fdf0d5;
+  width: 50%;
+  margin-right: 20px;
 }

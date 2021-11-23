@@ -11,7 +11,10 @@
   align-items: center;
   background: #669bbc;
 }
-
+.nav-bar-container > span,
+h4 {
+  font-size: 20px;
+}
 .nav-bar-logo-container {
   display: flex;
   flex-direction: row;
@@ -52,7 +55,7 @@
   width: 78px;
   height: 173px;
   left: 0px;
-  top: 425px;
+  top: 50%;
 }
 .social-icons {
   width: 50px;
@@ -67,4 +70,12 @@
 }
 .pointer {
   cursor: pointer;
+}
+
+.link {
+  color: #fdf0d5;
+  text-decoration: none;
+}
+.link :hover {
+  text-decoration: underline;
 }

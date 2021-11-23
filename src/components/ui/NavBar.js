@@ -6,16 +6,21 @@ export const NavBar = () => {
     <div className="nav-bar-container">
       <div className="nav-bar-logo-container ">
         <img src={logo} alt="Coveran" />
-        <span>Javier Robles</span>
+        <h4>Javier Robles</h4>
       </div>
       <div className="nav-bar-menu-container">
-        <h4>Home</h4>
-
-        <h4>Projects</h4>
-
-        <h4>Skills</h4>
-
-        <h4>Contact</h4>
+        <a href="#home" className="link">
+          <h4>Home</h4>
+        </a>
+        <a href="#skills" className="link">
+          <h4>Skills</h4>
+        </a>
+        <a href="#home" className="link">
+          <h4>Projects</h4>
+        </a>
+        <a href="#home" className="link">
+          <h4>Contact</h4>
+        </a>
       </div>
     </div>
   );
