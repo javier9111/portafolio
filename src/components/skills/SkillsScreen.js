@@ -3,7 +3,7 @@ import { SkillList } from "./SkillList";
 import "./Skills.css";
 export const SkillsScreen = () => {
   return (
-    <section id="skills" className="skills-container container">
+    <section id="skills" className="skills-main container">
       <div className="title">
         <h1>Skills</h1>
       </div>

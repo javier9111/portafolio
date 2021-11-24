@@ -7,7 +7,7 @@ export const skills = [
   {
     id: "github",
     name: "Git",
-    exp: "kid",
+    exp: "adult",
   },
   {
     id: "html",
@@ -22,12 +22,12 @@ export const skills = [
   {
     id: "JS-Logo",
     name: "JavaScript",
-    exp: "kid",
+    exp: "adult",
   },
   {
     id: "PLSQL",
     name: "Oracle PLSQL",
-    exp: "kid",
+    exp: "adult",
   },
   {
     id: "react",
@@ -37,7 +37,7 @@ export const skills = [
   {
     id: "RestAPI",
     name: "REST Arq.",
-    exp: "kid",
+    exp: "adult",
   },
   {
     id: "splunk",
@@ -47,6 +47,6 @@ export const skills = [
   {
     id: "spring",
     name: "Spring FrameWork",
-    exp: "kid",
+    exp: "oldman",
   },
 ];
