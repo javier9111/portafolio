@@ -1,4 +1,5 @@
 import React from "react";
+import { SkillList } from "./SkillList";
 import "./Skills.css";
 export const SkillsScreen = () => {
   return (
@@ -22,7 +23,7 @@ export const SkillsScreen = () => {
           </div>
         </div>
       </div>
-      <div className="skills-cards-container"></div>
+      <SkillList />
     </section>
   );
 };
