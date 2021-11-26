@@ -17,7 +17,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 53px;
+  padding: 5px;
   width: 314px;
   height: 510px;
   background: #ffffff;
@@ -36,4 +36,5 @@
 .project-card-body > img {
   width: 294px;
   height: 428px;
+  object-fit: cover;
 }
