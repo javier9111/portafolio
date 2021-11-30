@@ -14,4 +14,9 @@ export const projects = [
     name: "Journal App",
     url: "#",
   },
+  {
+    id: "Preycor",
+    name: "Preycor",
+    url: "#",
+  },
 ];

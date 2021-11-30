@@ -13,8 +13,9 @@
 }
 .profile-picture {
   border-radius: 50%;
-  height: 600px;
-  width: auto;
+  max-height: 600px;
+  display: block;
+  max-width: 100%;
   border: 8px solid #fdf0d5;
   box-shadow: -10px 3px 20px 8px rgba(0, 0, 0, 0.44);
 }
@@ -26,9 +27,101 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1.5em;
+  line-height: 1.2rem;
   color: #fdf0d5;
   width: 50%;
-  margin-right: 20px;
+  margin: 0rem 2rem;
+}
+
+.console-container {
+  display: block;
+  max-width: 100%;
+  max-height: 20rem;
+  width: 40rem;
+  height: 20rem;
+  background-color: black;
+  margin-top: 10rem;
+  box-shadow: -12px 17px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.console-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+.console-text a {
+  text-decoration: none;
+}
+.console-circle-small {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: solid 1px;
+  margin-top: 5px;
+  margin-right: 8px;
+  border: none;
+  text-align: center;
+}
+
+.green {
+  background-color: #28f906;
+}
+
+.red {
+  background-color: #fe0000;
+}
+
+.yellow {
+  background-color: #f4eb05;
+}
+
+.console-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 6px 14px;
+  background: #669bbc;
+  border-radius: 10px 10px 0px 0px;
+  height: 2rem;
+}
+
+.wrap {
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.console-arrow {
+  height: 3rem;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+@media (max-width: 1020px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrap {
+    margin-top: 1rem;
+
+    font-size: 2rem;
+  }
+}
+@media (max-width: 720px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrap {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
 }

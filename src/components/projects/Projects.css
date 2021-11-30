@@ -8,7 +8,7 @@
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 4em;
 }
 
@@ -37,4 +37,13 @@
   width: 294px;
   height: 428px;
   object-fit: cover;
+}
+
+.project-card-bottom {
+  color: #780000;
+  text-align: center;
+}
+.project-card-bottom h4 {
+  margin-top: 1rem;
+  font-size: 2rem;
 }
