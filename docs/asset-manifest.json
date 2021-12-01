@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.779c1e07.chunk.css",
+    "main.js": "/portafolio/static/js/main.44c2f3d3.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.44c2f3d3.chunk.js.map",
+    "runtime-main.js": "/portafolio/static/js/runtime-main.74658ef6.js",
+    "runtime-main.js.map": "/portafolio/static/js/runtime-main.74658ef6.js.map",
+    "static/js/2.96e2d33f.chunk.js": "/portafolio/static/js/2.96e2d33f.chunk.js",
+    "static/js/2.96e2d33f.chunk.js.map": "/portafolio/static/js/2.96e2d33f.chunk.js.map",
+    "static/js/3.39dec8da.chunk.js": "/portafolio/static/js/3.39dec8da.chunk.js",
+    "static/js/3.39dec8da.chunk.js.map": "/portafolio/static/js/3.39dec8da.chunk.js.map",
+    "index.html": "/portafolio/index.html",
+    "static/css/main.779c1e07.chunk.css.map": "/portafolio/static/css/main.779c1e07.chunk.css.map",
+    "static/js/2.96e2d33f.chunk.js.LICENSE.txt": "/portafolio/static/js/2.96e2d33f.chunk.js.LICENSE.txt",
+    "static/media/Discord.png": "/portafolio/static/media/Discord.04308a72.png",
+    "static/media/JS-Logo.png": "/portafolio/static/media/JS-Logo.75220e22.png",
+    "static/media/Journal.png": "/portafolio/static/media/Journal.e3b5e72e.png",
+    "static/media/Netflix.png": "/portafolio/static/media/Netflix.60c461dd.png",
+    "static/media/PLSQL.png": "/portafolio/static/media/PLSQL.32e2d6f2.png",
+    "static/media/Preycor.png": "/portafolio/static/media/Preycor.78c9adc9.png",
+    "static/media/RestAPI.png": "/portafolio/static/media/RestAPI.c5618b6d.png",
+    "static/media/Skills.css": "/portafolio/static/media/oldman.1e98e514.png",
+    "static/media/css.png": "/portafolio/static/media/css.b1dc9eeb.png",
+    "static/media/github.df4b7e14.png": "/portafolio/static/media/github.df4b7e14.png",
+    "static/media/github.png": "/portafolio/static/media/github.f87995ed.png",
+    "static/media/html.png": "/portafolio/static/media/html.91c24f93.png",
+    "static/media/java.png": "/portafolio/static/media/java.9e09b3e1.png",
+    "static/media/linkedin.36f75635.png": "/portafolio/static/media/linkedin.36f75635.png",
+    "static/media/perfil-coveran.61259e2b.png": "/portafolio/static/media/perfil-coveran.61259e2b.png",
+    "static/media/perfil.b650ae7c.jpg": "/portafolio/static/media/perfil.b650ae7c.jpg",
+    "static/media/react.png": "/portafolio/static/media/react.47a49059.png",
+    "static/media/spring.png": "/portafolio/static/media/spring.15ef603a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74658ef6.js",
+    "static/js/2.96e2d33f.chunk.js",
+    "static/css/main.779c1e07.chunk.css",
+    "static/js/main.44c2f3d3.chunk.js"
+  ]
+}
