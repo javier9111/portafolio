@@ -27,19 +27,28 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.5em;
-  line-height: 1.2rem;
   color: #fdf0d5;
   width: 50%;
-  margin: 0rem 2rem;
+  margin: 0rem 3rem;
 }
-
+.sum-prof-container h1 {
+  width: 100%;
+  height: auto;
+  margin: 2rem auto;
+  font-size: 3rem;
+  text-align: center;
+}
+.sum-prof-container p {
+  width: 100%;
+  font-size: 1.5rem;
+  margin: auto;
+}
 .console-container {
   display: block;
   max-width: 100%;
   max-height: 20rem;
-  width: 40rem;
-  height: 20rem;
+  width: 100%;
+  height: 50rem;
   background-color: black;
   margin-top: 10rem;
   box-shadow: -12px 17px 4px rgba(0, 0, 0, 0.25);
@@ -111,8 +120,16 @@
   }
   .wrap {
     margin-top: 1rem;
-
     font-size: 2rem;
+  }
+  .console-container {
+    height: 15rem;
+  }
+  .sum-prof-container h1 {
+    font-size: 2rem;
+  }
+  .sum-prof-container p {
+    font-size: 1rem;
   }
 }
 @media (max-width: 720px) {
@@ -120,8 +137,23 @@
     display: flex;
     flex-direction: column;
   }
+  .sum-prof-container h1 {
+    margin-top: 1rem;
+  }
   .wrap {
     margin-top: 1rem;
     font-size: 1rem;
+  }
+  .console-container {
+    height: 10rem;
+  }
+  .console-arrow {
+    height: 1rem;
+  }
+  .sum-prof-container h1 {
+    font-size: 1rem;
+  }
+  .sum-prof-container p {
+    font-size: 0.5rem;
   }
 }
