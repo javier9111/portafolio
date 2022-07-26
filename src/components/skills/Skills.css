@@ -4,7 +4,9 @@
   justify-content: flex-end;
   color: #fdf0d5;
 }
-
+.skills-main {
+  padding-top: 1rem;
+}
 .circle-big {
   height: 8rem;
   width: 8rem;
